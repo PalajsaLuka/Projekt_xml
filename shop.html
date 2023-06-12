@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Web-shop</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+            }
+            .header-flex{
+                display:flex;
+            }
+            .shrink.no-shrink{
+                flex-shrink: 0;
+            }
+            .header{
+
+                overflow:hidden;
+                margin:0px;
+                padding:0px;
+                height:36px;
+                background-color:#F891A6;
+                
+            }
+            .navbar{
+                margin-left:50px;
+                position:relative;
+                top:25%;
+                height:26px;
+                float:left;
+                text-align: center;
+                
+            }
+            .navbar2{
+                margin-right:100px;
+                float:right;
+                text-align: center;
+                height:26px;
+                position:relative;
+                top:25%;
+            }
+            .header a{
+                margin:0px; 
+                text-decoration: none;
+                color:black;
+                font-size:18px;
+            }
+            .main{
+                background-color: #C4A7BB;
+                padding-left:30px;
+                padding-right:30px;
+                display:flex;
+                flex-wrap:wrap;
+                flex-direction: column;
+                overflow: hidden;
+                margin-left:50px;
+                margin-right:50px;
+                height:1200px;   
+            }
+            .produkt{
+                background-color: white;
+                margin-top:10px;
+                display:flex;
+                gap: 1em;
+                flex-wrap:wrap;
+                flex-direction: row;
+                overflow: hidden;
+                border:solid 2px;
+                height:250px;
+            }
+            .produkt.no-shrink{
+                flex-grow:1;
+            }
+            .red{
+                padding-top:10px;
+                flex:1;
+                text-align: center;
+                font-size:24px;
+                margin:0px;
+            }
+            .sadrzaj{
+                
+                margin-top:50px;
+            }
+            a.links{
+                border-style: solid;
+                border-color:darkslategrey;
+                background-color: darkslategrey;
+                color:white;
+                border-width:5px;
+                text-decoration: none;
+                font-size:32px;
+            }
+            
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navbar"><a href="index.html">JoyMusic</a></div>
+                <div class="navbar"> <a href="index.html">Home</a> <!--glavna stranica sa par reklama--></div>
+                <div class="navbar"><a href="popularno.html">Popularno</a> <!--trenutna popularna glazba, po 4 u redu--></div>
+                <div class="navbar"><a href="glazba.php">Popis glazba</a> <!--ucitana tablica sa json--></div>
+                <div class="navbar"><a href="shop.html">Web-shop</a> <!--web shop--></div>
+                <div class="navbar"><a href="nama.html">O nama</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar"><a href="kontakt.html">Kontakt</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar2"><a href="login.php">Login</a>  <!--provjera sa tablicom xml-a za korisnika--></div>
+        </div>
+
+        <div class="main">
+            <div class="produkt">
+                <div class="red">
+                    <img src="slike/steel1.jpg" width="200">
+                </div>
+                <div class="red">
+                    <p class="sadrzaj">Steelseries arctis 7x</p>
+                    <p >199€</p>
+                    <p>Usb 3.1,   7.1 Surround sound, Wired</p>
+                </div>
+                <div class="red" style="margin-top:100px;">
+                        <a class="links" href="shop.html">Kupi</a>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <div class="red">
+                    <img src="slike/razer1.jpg" width="220" style="margin-top:10px;">
+                </div>
+                <div class="red">
+                    <p class="sadrzaj">Razer Kraken X Lite</p>
+                    <p >249€</p>
+                    <p>Usb 3.1,   7.1 Surround sound, Wired</p>
+                </div>
+                <div class="red" style="margin-top:100px;">
+                        <a class="links" href="shop.html">Kupi</a>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <div class="red">
+                    <img src="slike/sony1.png" width="220" style="margin-top:40px;">
+                </div>
+                <div class="red">
+                    <p class="sadrzaj">Sony WH-1000 XM4</p>
+                    <p >179€</p>
+                    <p>Usb 3.0,   5.1 Surround sound, Bluetooth</p>
+                </div>
+                <div class="red" style="margin-top:100px;">
+                        <a class="links" href="shop.html">Kupi</a>
+                </div>
+            </div>
+
+            <div class="produkt">
+                <div class="red">
+                    <img src="slike/razer2.jpg" width="220" >
+                </div>
+                <div class="red">
+                    <p class="sadrzaj">Razer Kraken ultimate</p>
+                    <p >229€</p>
+                    <p>Usb 3.1,   5.1 Surround sound, Bluetooth</p>
+                </div>
+                <div class="red" style="margin-top:100px;">
+                        <a class="links" href="shop.html">Kupi</a>
+                </div>
+            </div>
+
+           
+
+            
+
+        </div>
+
+    </body>
+</html>

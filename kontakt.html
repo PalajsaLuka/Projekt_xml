@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Kontakt</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+            }
+            .header-flex{
+                display:flex;
+            }
+            .shrink.no-shrink{
+                flex-shrink: 0;
+            }
+            .header{
+
+                overflow:hidden;
+                margin:0px;
+                padding:0px;
+                height:36px;
+                background-color:#F891A6;
+                
+            }
+            .navbar{
+                margin-left:50px;
+                position:relative;
+                top:25%;
+                height:26px;
+                float:left;
+                text-align: center;
+                
+            }
+            .navbar2{
+                margin-right:100px;
+                float:right;
+                text-align: center;
+                height:26px;
+                position:relative;
+                top:25%;
+            }
+            .header a{
+                margin:0px; 
+                text-decoration: none;
+                color:black;
+                font-size:18px;
+            }
+            .main{
+                background-color: #C4A7BB;
+                padding-left:30px;
+                padding-right:30px;
+                display:flex;
+                flex-wrap:nowrap;
+                flex-direction: column;
+                overflow: hidden;
+                margin-left:50px;
+                margin-right:50px;
+                height:1200px;
+                
+            }
+            .map{
+                width:100%;
+                height:520px;
+            }
+            a.move{
+                margin-left:50px;
+                border-style: solid;
+                border-color:darkslategrey;
+                background-color: darkslategrey;
+                color:white;
+                border-width:5px;
+                font-size:20px;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navbar"><a href="index.html">JoyMusic</a></div>
+                <div class="navbar"> <a href="index.html">Home</a> <!--glavna stranica sa par reklama--></div>
+                <div class="navbar"><a href="popularno.html">Popularno</a> <!--trenutna popularna glazba, po 4 u redu--></div>
+                <div class="navbar"><a href="glazba.php">Popis glazba</a> <!--ucitana tablica sa json--></div>
+                <div class="navbar"><a href="shop.html">Web-shop</a> <!--web shop--></div>
+                <div class="navbar"><a href="nama.html">O nama</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar"><a href="kontakt.html">Kontakt</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar2"><a href="login.php">Login</a>  <!--provjera sa tablicom xml-a za korisnika--></div>
+        </div>
+        <div class="main">
+            <div><h1>Želite nas kontaktirati?</h1></div>
+            <div><h2>Poslovni email:</h2>
+            <p>JoyMusic_support@gmail.com</p>
+            <h2>Trebate pomoć?</h2>
+            <p>JoyMusic_help@gmail.com</p>
+            <h2>Pratite nas:</h2>
+            <p><a class="move" href="nama.html">Instagram</a> <a class="move" href="nama.html">Facebook</a> <a class="move" href="nama.html">TikTok</a></p>
+            </div>
+            <div><h2>Pronađite nas za kupovinu proizvoda!</h2></div>
+            <div class="map">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7974756685444!2d15.966938808560359!3d45.79528497441229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sZagreb%20University%20of%20Applied%20Sciences!5e0!3m2!1sen!2shr!4v1686346274426!5m2!1sen!2shr" 
+                width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <div><h2>Ili isprobajte web-shop:</h2>
+            <p><a class="move" href="shop.html">Web-shop</a></p></div>
+            
+        </div>
+
+
+    </body>
+</html>

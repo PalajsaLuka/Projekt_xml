@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Blinding lights", 
+        "author": "The Weeknd",
+        "date": "2020"
+    },
+    {
+        "name": "One Dance", 
+        "author": "Drake",
+        "date": "2016"
+    },
+    {
+        "name": "Bad Guy", 
+        "author": "Billie Eilish",
+        "date": "2019"
+    },
+    {
+        "name": "Shape of you", 
+        "author": "Ed Sheeran",
+        "date": "2017"
+    },
+    {
+        "name": "This Is America", 
+        "author": "Childish Gambino",
+        "date": "2018"
+    },
+    {
+        "name": "One Kiss", 
+        "author": "Dua Lipa",
+        "date": "2018"
+    },
+    {
+        "name": "Sandstorm", 
+        "author": "Darude",
+        "date": "2000"
+    },
+    {
+        "name": "Toxic", 
+        "author": "Britney Spears",
+        "date": "2003"
+    },
+    {
+        "name": "Take on me", 
+        "author": "A-ha",
+        "date": "1985"
+    },
+    {
+        "name": "Never gonna give you up", 
+        "author": "Rick Astley",
+        "date": "1987"
+    },
+    {
+        "name": "Bohemian Rhapsody", 
+        "author": "Queen",
+        "date": "1975"
+    }
+
+]

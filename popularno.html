@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Music</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+            }
+            .header-flex{
+                display:flex;
+            }
+            .shrink.no-shrink{
+                flex-shrink: 0;
+            }
+            .header{
+                overflow:hidden;
+                margin:0px;
+                padding:0px;
+                height:36px;
+                background-color:#F891A6;
+                
+            }
+            .navbar{
+                margin-left:50px;
+                position:relative;
+                top:25%;
+                height:26px;
+                float:left;
+                text-align: center;
+                
+            }
+            .navbar2{
+                margin-right:100px;
+                float:right;
+                text-align: center;
+                height:26px;
+                position:relative;
+                top:25%;
+            }
+            .header a{
+                margin:0px; 
+                text-decoration: none;
+                color:black;
+                font-size:18px;
+            }
+            .main{
+                background-color: #C4A7BB;
+                padding-left:30px;
+                padding-right:30px;
+                margin-left:50px;
+                margin-right:50px;
+                height:1200px;
+                
+            }
+            div.article{
+                display:flex;
+                gap: 1em;
+                flex-wrap:wrap;
+                flex-direction: row;
+                overflow: hidden;
+                
+            }
+            .article.no-shrink{
+                flex-grow: 1;
+
+            }
+            div.blok{
+                background-color: white;
+                padding-top:10px;
+                flex:1;
+                text-align: center;
+                margin:0px;
+                border:solid 2px;
+            }
+            p.sadrzaj{
+                font-size:18px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navbar"><a href="index.html">JoyMusic</a></div>
+                <div class="navbar"> <a href="index.html">Home</a> <!--glavna stranica sa par reklama--></div>
+                <div class="navbar"><a href="popularno.html">Popularno</a> <!--trenutna popularna glazba, po 4 u redu--></div>
+                <div class="navbar"><a href="glazba.php">Popis glazba</a> <!--ucitana tablica sa json--></div>
+                <div class="navbar"><a href="shop.html">Web-shop</a> <!--web shop--></div>
+                <div class="navbar"><a href="nama.html">O nama</a> <!--opis firme --></div>
+                <div class="navbar"><a href="kontakt.html">Kontakt</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar2"><a href="login.php">Login</a>  <!--provjera sa tablicom xml-a za korisnika--></div>
+        </div>
+        <div class="main">
+            <h1 style="margin-top:0px; padding-top:10px;">Trenutno popularne pjesme</h1>
+            <div class="article">
+                <div class="blok">
+                    <img src="slike/flower.jpg" width="400" height="250">
+                    <p class="sadrzaj">Miley Cyrus - Flower</p>
+                    <p class="sadrzaj">86.2 mil pogleda</p>
+                </div>
+                <div class="blok">
+                    <img src="slike/despacito.jpg" width="400" height="250">
+                    <p class="sadrzaj">Despacito guys - Despacito</p>
+                    <p class="sadrzaj">8,190 mil pogleda</p>
+                </div>
+                <div class="blok">
+                    <img src="slike/bohemian.jpg" width="400" height="250">
+                    <p class="sadrzaj">Queen - Bohemian Rhapsody</p>
+                    <p class="sadrzaj">1,622 mil pogleda</p>
+                </div>  
+                
+                <div class="blok">
+                    <img src="slike/free_bird.jpg" width="400" height="250">
+                    <p class="sadrzaj">Lynyrd Skynyrd - Free Bird</p>
+                    <p class="sadrzaj">47.3 mil pogleda</p>
+                </div> 
+                <div class="blok">
+                    <img src="slike/kill_bill.jpg" width="400" height="250">
+                    <p class="sadrzaj">SZA - Kill Bill</p>
+                    <p class="sadrzaj">69.3 mil pogleda</p>
+                </div> 
+                <div class="blok">
+                    <img src="slike/last_night.jpg" width="400" height="250">
+                    <p class="sadrzaj">Morgan Wallen - Last Night</p>
+                    <p class="sadrzaj">38 mil pogleda</p>
+                </div> 
+
+                <div class="blok">
+                    <img src="slike/lights.jpg" width="400" height="250">
+                    <p class="sadrzaj">The Weeknd - Blinding Lights</p>
+                    <p class="sadrzaj">722.8 mil pogleda</p>
+                </div> 
+                <div class="blok">
+                    <img src="slike/thunderstruck.jpg" width="400" height="250">
+                    <p class="sadrzaj">ACDC - Thunderstruck</p>
+                    <p class="sadrzaj">1,238 mil pogleda</p>
+                </div> 
+                <div class="blok">
+                    <img src="slike/anti.jpg" width="400" height="250">
+                    <p class="sadrzaj">Taylor Swift - Anti-Hero</p>
+                    <p class="sadrzaj">140.3 mil pogleda</p>
+                </div> 
+                
+            </div>
+        </div>
+
+    </body>
+</html>

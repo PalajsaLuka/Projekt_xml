@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>O nama</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+            }
+            .header-flex{
+                display:flex;
+            }
+            .shrink.no-shrink{
+                flex-shrink: 0;
+            }
+            .header{
+
+                overflow:hidden;
+                margin:0px;
+                padding:0px;
+                height:36px;
+                background-color:#F891A6;
+                
+            }
+            .navbar{
+                margin-left:50px;
+                position:relative;
+                top:25%;
+                height:26px;
+                float:left;
+                text-align: center;
+                
+            }
+            .navbar2{
+                margin-right:100px;
+                float:right;
+                text-align: center;
+                height:26px;
+                position:relative;
+                top:25%;
+            }
+            .header a{
+                margin:0px; 
+                text-decoration: none;
+                color:black;
+                font-size:18px;
+            }
+            .main{
+                display:flex;
+                flex-wrap:nowrap;
+                flex-direction: column;
+                overflow: hidden;
+                margin-left:50px;
+                margin-right:50px;
+                height:1020px;
+                
+            }
+            .banner{
+                background-color: #75b9be;
+                height:510px;
+                max-width:100%;
+            }
+            .banner2{
+                background-color: #EBDD45;
+                height:510px;
+                max-width:100%;
+            }
+            .tekst{
+                float:left;    
+                margin-top:20px;
+                width:45%;
+                font-size: 22px;
+                margin-left:20px;
+            }
+            .tekst2{
+                float:right;    
+                width:45%;
+                font-size: 22px;
+                margin-right:20px;
+            }
+            .picture{
+                float:right;
+                height:400px;
+                margin-right:20px;
+                overflow: hidden;
+            }
+            .picture2{
+                float:left;
+                margin-left:20px;
+            }
+            .button{
+                border-style: solid;
+                border-style: solid;
+                border-color:darkslategrey;
+                background-color: darkslategrey;
+                
+                border-width:5px;
+                color:lime;
+            }
+            a.move{
+                margin-left:50px;
+                border-style: solid;
+                border-color:darkslategrey;
+                background-color: darkslategrey;
+                color:white;
+                border-width:5px;
+                text-decoration: none;
+            }
+            h1{
+                margin-left:20px;
+            }
+            p.move{
+                margin-left:50px;
+                
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navbar"><a href="index.html">JoyMusic</a></div>
+                <div class="navbar"> <a href="index.html">Home</a> <!--glavna stranica sa par reklama--></div>
+                <div class="navbar"><a href="popularno.html">Popularno</a> <!--trenutna popularna glazba, po 4 u redu--></div>
+                <div class="navbar"><a href="glazba.php">Popis glazba</a> <!--ucitana tablica sa json--></div>
+                <div class="navbar"><a href="shop.html">Web-shop</a> <!--web shop--></div>
+                <div class="navbar"><a href="nama.html">O nama</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar"><a href="kontakt.html">Kontakt</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar2"><a href="login.php">Login</a>  <!--provjera sa tablicom xml-a za korisnika--></div>
+        </div>
+        <div class="main">
+            <div class="banner">
+                <div><h1>Tko smo mi?</h1></div>
+                <div class="tekst">JoyMusic je firma centrirana oko prijenosa glazbe za sve naše korisnike da slušaju.
+                <p>Krenuli smo 2008. godine i kroz godine smo se povećali do razine 5,000,000 korisnika. Uvijek nam je prioritet
+                    osigurati što vise moguće glazbe za naše korisnike i da im omogućujemo maksimalni užitak sa što više glazba na odabir.
+                </p>
+                <p>Svaki dan dodavamo nove pjesme te pratimo njihovu popularnost i uspješnost.</p>
+                
+                </div>
+                <div class="picture"> 
+                    <img src="slike/studio.jpg" width="600px">
+                </div>
+            </div>
+            <div class="banner2">
+                <div><h1>Što sve nudimo?</h1></div>
+                <div class="tekst2">
+                    <p>Naša stranica je besplatna za sve, te pri registraciji otključate sve mogućnosti.</p>
+                    <p>Omogućujemo vam pretraživanje svih naših pjesama, te nakon registracije ih možete stavljati u playlist jednu za drugom.</p>
+                    <p>Naravno ako neznate šta biste slušali, imamo i "popularno" kategoriju sa najvećim hitovima mjeseca</p>
+                    <p>Takoder ako vam sve sviđa naš servis možete uvijek donirati na gumb ispod ili kupiti nešto sa našeg web-shopa:</p>
+                    <p class="move"><a class="button" href="">Donate</a> <a class="move" href="shop.html">Web-shop</a> </p>
+
+                </div>
+                <div class="picture2">
+                    <img src="slike/slusanje.jpg" width="600px">
+                </div>
+                
+
+            </div>
+            
+            
+            
+        </div>
+
+
+    </body>
+</html>

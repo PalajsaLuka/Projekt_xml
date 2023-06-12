@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Početna</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+            }
+            .header-flex{
+                display:flex;
+            }
+            .shrink.no-shrink{
+                flex-shrink: 0;
+            }
+            .header{
+                overflow:hidden;
+                margin:0px;
+                padding:0px;
+                height:36px;
+                background-color:#F891A6;
+                
+            }
+            .navbar{
+                margin-left:50px;
+                position:relative;
+                top:25%;
+                height:26px;
+                float:left;
+                text-align: center;
+                
+            }
+            .navbar2{
+                margin-right:100px;
+                float:right;
+                text-align: center;
+                height:26px;
+                position:relative;
+                top:25%;
+            }
+            .header a{
+                margin:0px; 
+                text-decoration: none;
+                color:black;
+                font-size:18px;
+            }
+            .main{
+                background-color: #C4A7BB;
+                padding-left:30px;
+                padding-right:30px;
+                padding-top:0px;
+                display:flex;
+                flex-wrap:nowrap;
+                flex-direction: column;
+                overflow: hidden;
+                margin-left:50px;
+                margin-right:50px;
+                height:1500px;
+                
+            }
+            .naslov{
+              text-decoration: underline; 
+            }
+            .miley{
+                
+                height:600px;
+            }
+            .razmak{
+                margin-top:75px;
+            }
+            .sadrzaj{
+                font-size:20px;
+            }
+            a.links{
+                margin-left:260px;
+                border-style: solid;
+                border-color:darkslategrey;
+                background-color: darkslategrey;
+                color:white;
+                border-width:5px;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+                <div class="navbar"><a href="index.html">JoyMusic</a></div>
+                <div class="navbar"> <a href="index.html">Home</a> <!--glavna stranica sa par reklama--></div>
+                <div class="navbar"><a href="popularno.html">Popularno</a> <!--trenutna popularna glazba, po 4 u redu--></div>
+                <div class="navbar"><a href="glazba.php">Popis glazba</a> <!--ucitana tablica sa json--></div>
+                <div class="navbar"><a href="shop.html">Web-shop</a> <!--web shop--></div>
+                <div class="navbar"><a href="nama.html">O nama</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar"><a href="kontakt.html">Kontakt</a> <!--popis za kontakt + karta --></div>
+                <div class="navbar2"><a href="login.php">Login</a>  <!--provjera sa tablicom xml-a za korisnika--></div>
+        </div>
+        <div class="main">
+            <div><h1 class="naslov">Poslušajte novi hit mjeseca!</h1></div>
+            <div><h1>Miley Cyrus-ova nova pjesma "Flower" se penje na 1. mjesto!</h1></div>
+            <div class="miley">
+                <img src="slike/miley.jpg" height="550">
+                <p class="sadrzaj">Flower je najnovija pjesma pjevačice Miley Cyrus i makar je samo 11 dana stara, već ima 82 milijuna pogleda.
+                    To je pozicionira na 1.mjesto ovog mjeseca, sa Morgan Wallen-ovim "Last Night" na drugom mjestu sa 76mil pogleda.
+                </p>
+            </div>
+            <div class="razmak"></div>
+            <div><h1 class="naslov">Povećali smo maksimalnu dužinu popisa reprodukcije</h1></div>
+                <p class="sadrzaj">Od danas možete više glazbe stavljati u popis za reprodukciju. Povećali smo limit sa 50 na 100 pjesama!</p>
+           
+            <div><h1 class="naslov">Nove razer slušalice su stigle!</h1> </div>
+            <p><img src="slike/razer1.jpg" width="250"> <a class="sadrzaj">Uživajte u vrhunskoj kvaliteti zvuka, kupite u web-shopu:</a>
+            </p>
+            <h2><a class="links" href="shop.html">Web-shop</a></h2>
+            
+
+
+        </div>
+
+        <div class="footer">
+            
+        </div>
+
+
+    </body>
+</html>

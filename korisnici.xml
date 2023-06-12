@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korisnici>
+<korisnik>
+    <email>fran@gmail.com</email>
+    <password>11111</password>
+    <username>Franky76</username>
+</korisnik>
+
+<korisnik>
+    <email>sara@gmail.com</email>
+    <password>223344</password>
+    <username>Sara_Petrunić</username>
+</korisnik>
+
+<korisnik>
+    <email>ant@gmail.com</email>
+    <password>12345</password>
+    <username>Antonio22</username>
+</korisnik>
+</korisnici>
